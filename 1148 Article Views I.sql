@@ -1,0 +1,1 @@
+SELECT v.author_id AS id FROM Views v WHERE v.author_id=v.viewer_id GROUP BY v.author_id;
